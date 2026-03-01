@@ -3,7 +3,10 @@ import React from "react";
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="flex min-h-screen">
-      <section className="hidden w-1/2 items-center justify-center bg-brand p-10 lg:flex xl:w-2/5">
+      <section
+        className="hidden w-1/2 items-center justify-center p-10 lg:flex xl:w-2/5"
+        style={{ backgroundColor: "#1e3a8a" }}
+      >
         <div className="flex max-h-[800px] max-w-[430px] flex-col justify-center space-y-12">
           <img
             src="/assets/icons/logo-full.svg"
